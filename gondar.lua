@@ -1,6 +1,6 @@
 print(arg[0] or "0")
 print(arg[1] or "1")
-file = io.open("test", 'w')
+file = io.open("test", 'a')
 io.output(file)
 io.write("a")
 os.execute("git add .")
