@@ -1,8 +1,8 @@
-print(arg[0] or "0")
-print(arg[1] or "1")
 file = io.open("test", 'a')
 io.output(file)
-io.write("a")
+for i = 0, 5, 1 do
+  io.write("a")
+end
 os.execute("git add .")
 os.execute("git commit -m test")
 os.execute("git push")
